@@ -1,25 +1,25 @@
 Social-Networks-Ads
 Logistic Regression
-Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Unlike linear regression which outputs continuous number values, logistic regression transforms its output using the logistic sigmoid function to return a probability value which can then be mapped to two or more discrete classes.
+Regresi logistik adalah algoritma klasifikasi yang digunakan untuk menetapkan observasi ke sekumpulan kelas diskrit. Tidak seperti regresi linier yang mengeluarkan nilai bilangan kontinu, regresi logistik mengubah keluarannya menggunakan fungsi sigmoid logistik untuk mengembalikan nilai probabilitas yang kemudian dapat dipetakan ke dua atau lebih kelas diskrit.
 
-for more -https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html
+untuk lebih lanjut - https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regress.html
 
 K Nearest Neighbors
-The model representation for KNN is the entire training dataset.
+Representasi model untuk KNN adalah seluruh dataset pelatihan.
 
-It is as simple as that.
+Sesederhana itu.
 
-KNN has no model other than storing the entire dataset, so there is no learning required.
+KNN tidak memiliki model selain menyimpan seluruh dataset, jadi tidak diperlukan pembelajaran.
 
-Efficient implementations can store the data using complex data structures like k-d trees to make look-up and matching of new patterns during prediction efficient.
+Implementasi yang efisien dapat menyimpan data menggunakan struktur data yang kompleks seperti pohon kd untuk membuat pencarian dan pencocokan pola baru selama prediksi menjadi efisien.
 
-Because the entire training dataset is stored, you may want to think carefully about the consistency of your training data. It might be a good idea to curate it, update it often as new data becomes available and remove erroneous and outlier data.
+Karena seluruh set data pelatihan disimpan, Anda mungkin ingin memikirkan dengan cermat tentang konsistensi data pelatihan Anda. Sebaiknya kurasi, perbarui sesering mungkin saat data baru tersedia, dan hapus data yang salah dan outlier mungkin merupakan ide yang bagus.
 
-KNN works well with a small number of input variables (p), but struggles when the number of inputs is very large.
+KNN bekerja dengan baik dengan sejumlah kecil variabel input (p), tetapi kesulitan ketika jumlah input sangat besar.
 
-Dataset can be downloaded from - https://www.kaggle.com/rakeshrau/social-network-ads#Social_Network_Ads.csv
+Set data dapat diunduh dari - https://www.kaggle.com/rakeshrau/social-network-ads#Social_Network_Ads.csv
 
-Our Goal is to predict whether a person will be able to buy a car depending upon his age and his salary
-Using Logistic Regression we achived an accuracy of - 0.875
+Tujuan kami adalah untuk memprediksi apakah seseorang akan dapat membeli mobil tergantung pada usia dan gajinya
+Dengan menggunakan Regresi Logistik kami memperoleh akurasi sebesar - 0,875
 
-Using K Nearest Neighbours we achived an accuracy of - 0.9166666666666666
+Dengan menggunakan K Tetangga Terdekat, kami memperoleh akurasi - 0,9166666666666666
